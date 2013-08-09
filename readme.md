@@ -11,7 +11,7 @@ Config is stored in a YAML file to make it simple for users to edit the config d
 var Configstore = require('configstore');
 var packageName = require('./package').name;
 
-// Init a Configstore instance with an unique ID eg. package name
+// Init a Configstore instance with a unique ID eg. package name
 // and optionally some default values
 var conf = new Configstore(packageName, { foo: 'bar' });
 
